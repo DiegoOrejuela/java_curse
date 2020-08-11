@@ -1,0 +1,27 @@
+
+public class Matrices {
+
+	public static void main(String[] args) {
+		
+		/*
+	Actividad 1
+		Objetivo: declara una matriz
+		
+			Método 1. 
+		 */
+				int []mi_matriz = new int  [5];
+				
+					mi_matriz [0]= 80;
+					mi_matriz [1]= 40;
+					mi_matriz [2]= 20;
+					mi_matriz [3]= 10;
+					mi_matriz [4]= 5;
+						
+						System.out.println("El índice 2 tiene el valor" + 
+						mi_matriz [2]);
+						
+						
+
+	}
+
+}

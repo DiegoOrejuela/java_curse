@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;_152_Streams_I_Accediendo_a_ficheros.java&apos; to &apos;PrimerosPasos/src/secuencias_flujosDeDatos&apos;&#x0D;&#x0A;- Original project: &apos;PrimerosPasos&apos;&#x0D;&#x0A;- Destination element: &apos;PrimerosPasos/src/secuencias_flujosDeDatos&apos;&#x0D;&#x0A;- Original element: &apos;secuencias_flujosDeDatos._152_Streams_I_Accediendo_a_ficheros.java&apos;" description="Copy compilation unit" destination="/src&lt;secuencias_flujosDeDatos" element1="/src&lt;secuencias_flujosDeDatos{_152_Streams_I_Accediendo_a_ficheros.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1523406850377" units="1" version="1.0"/>
+</session>

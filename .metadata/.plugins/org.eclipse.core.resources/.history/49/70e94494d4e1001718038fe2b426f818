@@ -1,0 +1,26 @@
+package experimentacion;
+
+
+public class Ejercicios_DDR {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		/*1) Declara dos variables numéricas (con el valor que desees), 
+		 * muestra por consola la suma, resta, multiplicación, división y módulo 
+		 * (resto de la división).
+		 */
+		
+		int num = 8;
+		int num2= 5;
+		
+		System.out.println(num + "+" + num2 + "=" + num+num2 + "\n" 
+		+ num + "-" + num2 + "=" + (num-num2) + "\n" + num + "x" + num2
+		+ "=" + num*num2 + "\n" + num + "/" + num2 + "=" + num/num2);
+		
+	}
+
+	
+	
+	
+}

@@ -1,0 +1,25 @@
+package experimentacion;
+
+public class Experimentos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Objetivo: hacer un array autom�tico
+		
+		System.out.println();
+		
+		
+	}
+
+}
+
+class conocidos {
+		
+	private 
+	public conocidos (String nombre, int edad, String ciudad, String 
+			lugar_de_conocimiento ) {
+		
+		
+	}
+}

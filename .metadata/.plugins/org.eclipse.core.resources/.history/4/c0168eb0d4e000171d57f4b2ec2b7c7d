@@ -1,0 +1,112 @@
+package poo;
+
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+public class Uso_Persona {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	Persona [] lasPersonas = new Persona [2];
+	
+	lasPersonas [0] = new empleado2 ("Paco Pérez", 700000, 2000, 4, 12);
+	
+	lasPersonas [1] = new Alumno ("Elver Gómez", "Comunicación social");
+	
+		for (Persona e : lasPersonas) {
+			System.out.println(e.getNombre() + e.getDescripcion());
+		}
+	
+	}
+
+}
+
+abstract class Persona {
+	
+	private String nombre;
+	
+	public Persona (String nom) {
+		
+		nombre = nom;
+	}
+	
+		public String getNombre () {
+			return nombre;
+		}
+		
+		public abstract String getDescripcion ();
+}
+
+class empleado2 extends Persona{
+	
+	
+	private double sueldo;
+	
+	private Date altaContrato;
+	
+	private int Id;
+	
+	private static int IdSiguiente = 1;
+	
+
+	
+	public empleado2 (String nom, double sue, int año, int mes, int dia){
+		
+		super (nom);
+		
+		sueldo = sue;
+		
+		GregorianCalendar calendario = new GregorianCalendar (año, mes-1, dia);
+		
+		altaContrato = calendario.getTime();
+		
+		Id= IdSiguiente;
+		
+		IdSiguiente++;
+		
+		
+	}
+	
+		//Metodos getters
+	
+			public String getDescripcion () {
+				return "Este empleado tiene el ID = " + Id + ", y su sueldo es" + sueldo;
+			}
+			                                
+			
+			public double getSueldo () {
+				
+				return sueldo;
+			}
+			
+			public Date getAltaContrato () {
+				return altaContrato;
+			}
+			
+			public int getId () {
+				return Id;
+			}
+			
+		//Métodos setters
+			
+			public void subirSueldo (double porcentaje) {
+				double aumento = sueldo*porcentaje/100;
+				
+				sueldo+=aumento;			
+			}
+}
+
+class Alumno extends Persona {
+	
+	private String carrera;
+	public Alumno (String nom, String carrera) {
+		super (nom);
+		
+		this.carrera = carrera;
+	}
+	
+	public String getDescripcion () {
+		return "Este alumno está estudiando la carrera de " + carrera;
+	}
+}

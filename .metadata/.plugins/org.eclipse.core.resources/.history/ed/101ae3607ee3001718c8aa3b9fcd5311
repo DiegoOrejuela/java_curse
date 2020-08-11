@@ -1,0 +1,116 @@
+package experimentacion;
+
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+
+public class Ejercicios_DDR {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		/*5) Haz una aplicación que calcule el área de un círculo(pi*R2). El radio 
+		 se pedirá por teclado (recuerda pasar de String a double con Double.parseDouble).
+		  Usa la constante PI y el método pow de Math.
+		 */
+		
+		System.out.println("Actividad 5.");
+		
+		Scanner pedidaBase = new Scanner (System.in);
+		
+		System.out.println("Introduce el radio del círculo para calcular su"
+				+ " área");
+		double base = pedidaBase.nextDouble();
+		
+		double AreaCirculo = Math.pow(base, 2)*Math.PI;
+		
+		System.out.print("El área del círculo es ");
+		System.out.printf("%1.2f", AreaCirculo);
+		
+		System.out.println();
+		
+		/*3) Declara un String que contenga tu nombre, después muestra un mensaje 
+		de bienvenida por consola. Por ejemplo: si introduzco “Fernando”, me 
+		aparezca “Bienvenido Fernando”.*/
+	
+		System.out.println("Actividad 3 y 4.");
+		
+		Scanner nombre = new Scanner (System.in);
+		
+		System.out.println("¿Cuál es tu nombre?");
+		
+		String getNombre = nombre.nextLine();
+		
+		System.out.println("Hola "+ getNombre + ". ¡Bienvenido!");
+		
+		System.out.println();
+		
+		
+		
+		
+		
+		
+		
+		/*2) Declara 2 variables numéricas (con el valor que desees), he indica 
+		cual es mayor de los dos. Si son iguales indicarlo también. Ves cambiando 
+		los valores para comprobar que funciona.*/
+		
+		System.out.println("Ejercicio 2.");
+		
+		int num3= Integer.parseInt(JOptionPane.showInputDialog("Introduce el primer "
+				+ "número"));
+		
+		Scanner entradaNum2 = new Scanner (System.in);
+		System.out.println("Introduce el segundo número");
+		int num4= entradaNum2.nextInt();
+		
+		if (num3 < num4) {
+			System.out.println(num3 + " es menor que " + num4);
+		}
+		
+		if (num3>num4 ) {
+			System.out.println(num3 + " es mayor que " + num4);
+		}
+		
+		if (num3 == num4) {
+			System.out.println(num3 + " es igual a " + num4);
+		}
+		
+		
+		System.out.println();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		/*1) Declara dos variables numéricas (con el valor que desees), 
+		 * muestra por consola la suma, resta, multiplicación, división y módulo 
+		 * (resto de la división).
+		 */
+		
+		System.out.println("Ejercicio 1.");
+		
+		int num1 = 8;
+		int num2= 5;
+		
+		System.out.println(num1 + "+" + num2 + "=" + (num1+num2) + "\n" 
+		+ num1 + "-" + num2 + "=" + (num1-num2) + "\n" + num1 + "x" + num2
+		+ "=" + num1*num2 + "\n" + num1 + "/" + num2 + "=" + (double)num1/num2);
+		
+		
+	}
+
+	
+	
+	
+}

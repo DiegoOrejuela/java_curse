@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="FinancialPlanner/src"/>
+	<classpathentry kind="src" path="IdentifcandoFuentes/src"/>
+	<classpathentry kind="src" path="JAR_run_Barra_de_herramientas/src"/>
+	<classpathentry kind="src" path="JAR_run_Procesador_de_textos/src"/>
+	<classpathentry kind="src" path="PrimerosPasos/src"/>
+	<classpathentry kind="lib" path="Puebas JAR/Barra de herramientas.jar"/>
+	<classpathentry kind="lib" path="Puebas JAR/IdentificandoFuentes.jar"/>
+	<classpathentry kind="lib" path="Puebas JAR/Procesador de texto.jar"/>
+	<classpathentry kind="output" path="FinancialPlanner/bin"/>
+</classpath>

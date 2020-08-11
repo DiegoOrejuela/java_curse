@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/JAR_run_Barra_de_herramientas/src/_111_114_Barra_de_Herramientas.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="_111_114_Barra_de_Herramientas"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="JAR_run_Barra_de_herramientas"/>
+</launchConfiguration>

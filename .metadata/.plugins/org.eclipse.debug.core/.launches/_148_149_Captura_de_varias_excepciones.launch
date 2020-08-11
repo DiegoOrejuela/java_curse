@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/PrimerosPasos/src/excepciones/_148_149_Captura_de_varias_excepciones.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="excepciones._148_149_Captura_de_varias_excepciones"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="PrimerosPasos"/>
+</launchConfiguration>

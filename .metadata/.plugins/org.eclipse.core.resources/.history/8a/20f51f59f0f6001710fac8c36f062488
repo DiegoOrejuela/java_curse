@@ -1,0 +1,33 @@
+package graficos;
+
+import java.awt.Frame;
+
+import javax.swing.*;
+
+public class CreandoMarcos {
+
+	public static void main(String[] args) {
+		
+		miMarco Marco1 = new miMarco ();
+		
+		Marco1.setVisible(true);
+		
+		Marco1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+	}
+
+}
+
+class miMarco extends JFrame {
+	
+	public miMarco () {
+		//setSize(300, 500);
+		//setLocation (300, 200);
+		setBounds (300, 200, 500, 500);
+		setResizable (false);
+		setExtendedState (Frame.MAXIMIZED_BOTH);
+		
+		
+	}
+	
+}

@@ -1,0 +1,19 @@
+
+public class Operaciones_Math {
+
+	public static void main(String[] args) {
+	
+		//Raiz cuadrada
+		double raiz = Math.sqrt(9);
+		
+		System.out.println(raiz);
+		
+		//Redondeo
+		
+		int redon = (int)Math.round(5.8);
+		
+		System.out.println(redon);
+	}
+
+
+}
